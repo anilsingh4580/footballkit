@@ -4,8 +4,22 @@
   "description": " a chat application build with node, mongodb, express and socket.io",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "author": "anil singh",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anilsingh4580/footballkit.git"
+  },
+  "bugs": {
+    "url": "https://github.com/anilsingh4580/footballkit/issues"
+  },
+  "homepage": "https://github.com/anilsingh4580/footballkit#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "ejs": "^2.6.1",
+    "express": "^4.16.3"
+  }
 }
